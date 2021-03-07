@@ -15,7 +15,7 @@ def divide(x, y):
         return x / y
         
     except ZeroDivisionError:
-        print('Error')
+        pass
     
 print("Select operation.")
 print("1.Add")
